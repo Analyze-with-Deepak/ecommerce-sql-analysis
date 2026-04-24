@@ -1,4 +1,4 @@
-# 📊 Brazilian E-Commerce SQL Analysis
+# Brazilian E-Commerce SQL Analysis
 
 Highlights
 - Complete SQL portfolio project** – From database design to business insights
@@ -9,7 +9,7 @@ Highlights
 
 ---
 
-## ℹ️ Overview
+##  Overview
 
 **What is this project?**  
 This is a complete SQL analysis of Brazilian e-commerce data that demonstrates practical data analyst skills. It's not just a collection of SQL queries – it's a **realistic workflow** showing how to turn messy data into business insights.
@@ -27,15 +27,15 @@ I'm **Deepak**, a data analyst building portfolio projects to demonstrate my SQL
 
 ---
 
-## 📈 What You'll Learn From This Project
+##  What You'll Learn From This Project
 
 ### For Recruiters:
 This project demonstrates I can:
-- ✅ Design and implement database schemas
-- ✅ Write complex SQL queries to solve business problems  
-- ✅ Identify and fix data quality issues
-- ✅ Extract actionable insights from raw data
-- ✅ Present findings in a clear, professional manner
+-  Design and implement database schemas
+-  Write complex SQL queries to solve business problems  
+-  Identify and fix data quality issues
+-  Extract actionable insights from raw data
+-  Present findings in a clear, professional manner
 
 ### For Fellow Data Analysts:
 - See how to structure a complete SQL portfolio project
@@ -45,7 +45,7 @@ This project demonstrates I can:
 
 ---
 
-## 🤝 Questions? Feedback?
+##  Questions? Feedback?
 
 This project is open for discussion! If you're a:
 - **Recruiter** – I'd love to walk you through any query or explain the business reasoning
@@ -54,7 +54,7 @@ This project is open for discussion! If you're a:
 
 ---
 
-## 👤 Author
+##  Author
 
 **Deepak**  
 Data Analyst & SQL Developer  
