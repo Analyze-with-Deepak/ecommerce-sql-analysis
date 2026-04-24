@@ -1,10 +1,10 @@
 ## Business Problem
 
-An e-commerce business needs to understand sales performance, customer behavior, product performance, delivery efficiency, retention, and freight impact in order to make better business decisions. This project uses SQL to turn raw operational data into business insights that support revenue growth, customer retention, and operational improvement. ([GitHub][1])
+An e-commerce business needs to understand sales performance, customer behavior, product performance, delivery efficiency, retention, and freight impact in order to make better business decisions. This project uses SQL to turn raw operational data into business insights that support revenue growth, customer retention, and operational improvement. 
 
 ## Dataset
 
-This project is built on a **Brazilian e-commerce dataset (2023 sample data)** with four main tables: **customers, orders, products, and order_items**. The data also includes realistic quality issues such as missing customer references, duplicates, inconsistent nulls, and freight-cost variation, which makes the project feel closer to real business data. ([GitHub][2])
+This project is built on a **Brazilian e-commerce dataset (2023 sample data)** with four main tables: **customers, orders, products, and order_items**. The data also includes realistic quality issues such as missing customer references, duplicates, inconsistent nulls, and freight-cost variation, which makes the project feel closer to real business data. 
 
 ## Tools Used
 
@@ -12,7 +12,7 @@ This project is built on a **Brazilian e-commerce dataset (2023 sample data)** w
 * SQLite / PostgreSQL compatible SQL
 * GitHub for project documentation and version control
 
-The repo is organized into `schema.sql`, `load_data.sql`, `data_quality.sql`, and `business_analysis.sql`, showing a full SQL workflow from database setup to insight generation. ([GitHub][1])
+The repo is organized into `schema.sql`, `load_data.sql`, `data_quality.sql`, and `business_analysis.sql`, showing a full SQL workflow from database setup to insight generation. 
 
 ## Questions Answered
 
@@ -25,7 +25,7 @@ The repo is organized into `schema.sql`, `load_data.sql`, `data_quality.sql`, an
 * Where do customers drop off in the sales funnel?
 * How do freight costs affect profitability?
 * What is the estimated customer lifetime value?
-* Which products are frequently bought together? ([GitHub][3])
+* Which products are frequently bought together? 
 
 ## SQL Queries Used
 
@@ -38,7 +38,7 @@ This project uses:
 * Window functions like `RANK()`
 * Date functions such as `STRFTIME()` and `JULIANDAY()`
 * Data quality checks for orphaned records and duplicates
-* Index creation for query performance improvement ([GitHub][3])
+* Index creation for query performance improvement 
 
 ## Key Findings
 
@@ -48,7 +48,7 @@ This project uses:
 * Delivery analysis reveals state-level differences in shipping performance.
 * Funnel analysis helps spot order drop-off between placement, approval, shipping, and delivery.
 * Freight analysis shows where shipping costs may reduce profitability.
-* Retention and CLV analysis help estimate long-term customer value. ([GitHub][3])
+* Retention and CLV analysis help estimate long-term customer value. 
 
 ## Business Recommendations
 
@@ -57,10 +57,4 @@ This project uses:
 * Review logistics performance in slower-delivery regions.
 * Monitor freight-heavy categories to protect margins.
 * Use repeat purchase and CLV insights to improve customer loyalty strategy.
-* Explore cross-sell opportunities from products frequently bought together. ([GitHub][3])
-
-I can also turn this into a more polished **GitHub-ready markdown version with bold headings and emojis** if you want.
-
-[1]: https://github.com/Analyze-with-Deepak/ecommerce-sql-analysis "GitHub - Analyze-with-Deepak/ecommerce-sql-analysis · GitHub"
-[2]: https://github.com/Analyze-with-Deepak/ecommerce-sql-analysis/blob/main/schema.sql "ecommerce-sql-analysis/schema.sql at main · Analyze-with-Deepak/ecommerce-sql-analysis · GitHub"
-[3]: https://raw.githubusercontent.com/Analyze-with-Deepak/ecommerce-sql-analysis/main/business_analysis.sql "raw.githubusercontent.com"
+* Explore cross-sell opportunities from products frequently bought together. 
