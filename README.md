@@ -1,63 +1,66 @@
-# Brazilian E-Commerce SQL Analysis
+## Business Problem
 
-Highlights
-- Complete SQL portfolio project** – From database design to business insights
-- Real-world data quality challenges** – Not just perfect textbook examples
-- Actionable business metrics** – CLV, retention rates, delivery performance, sales trends
-- Recruiter-ready structure** – Shows you can solve real business problems with SQL
-- Easy to run** – Works with SQLite, PostgreSQL, or any online SQL editor
+An e-commerce business needs to understand sales performance, customer behavior, product performance, delivery efficiency, retention, and freight impact in order to make better business decisions. This project uses SQL to turn raw operational data into business insights that support revenue growth, customer retention, and operational improvement. ([GitHub][1])
 
----
+## Dataset
 
-##  Overview
+This project is built on a **Brazilian e-commerce dataset (2023 sample data)** with four main tables: **customers, orders, products, and order_items**. The data also includes realistic quality issues such as missing customer references, duplicates, inconsistent nulls, and freight-cost variation, which makes the project feel closer to real business data. ([GitHub][2])
 
-**What is this project?**  
-This is a complete SQL analysis of Brazilian e-commerce data that demonstrates practical data analyst skills. It's not just a collection of SQL queries – it's a **realistic workflow** showing how to turn messy data into business insights.
+## Tools Used
 
-**How does it work?**  
-The project is organized into 4 SQL files that build on each other:
+* SQL
+* SQLite / PostgreSQL compatible SQL
+* GitHub for project documentation and version control
 
-1. **`schema.sql`** – Design a proper database (customers, orders, products, order_items)
-2. **`load_data.sql`** – Load realistic data with intentional quality issues (like real business data!)
-3. **`data_quality.sql`** – Identify and quantify data problems before analysis
-4. **`business_analysis.sql`** – Extract actionable insights that drive business decisions
+The repo is organized into `schema.sql`, `load_data.sql`, `data_quality.sql`, and `business_analysis.sql`, showing a full SQL workflow from database setup to insight generation. ([GitHub][1])
 
-**Who made this?**  
-I'm **Deepak**, a data analyst building portfolio projects to demonstrate my SQL skills to potential employers. This project shows I understand both the technical side (writing complex queries) and the business side (extracting meaningful insights).
+## Questions Answered
 
----
+* How are sales trending month over month?
+* Who are the highest-value customers?
+* Which products and categories generate the most revenue?
+* How efficient is the delivery process by state?
+* What is the repeat purchase rate?
+* Where are sales concentrated geographically?
+* Where do customers drop off in the sales funnel?
+* How do freight costs affect profitability?
+* What is the estimated customer lifetime value?
+* Which products are frequently bought together? ([GitHub][3])
 
-##  What You'll Learn From This Project
+## SQL Queries Used
 
-### For Recruiters:
-This project demonstrates I can:
--  Design and implement database schemas
--  Write complex SQL queries to solve business problems  
--  Identify and fix data quality issues
--  Extract actionable insights from raw data
--  Present findings in a clear, professional manner
+This project uses:
 
-### For Fellow Data Analysts:
-- See how to structure a complete SQL portfolio project
-- Learn techniques for data quality assessment
-- Get examples of business-focused SQL queries
-- Understand how to translate business questions into SQL
+* `JOIN`s across multiple tables
+* `GROUP BY` and aggregations
+* `CASE WHEN` for segmentation and flags
+* `CTE`s for retention and CLV analysis
+* Window functions like `RANK()`
+* Date functions such as `STRFTIME()` and `JULIANDAY()`
+* Data quality checks for orphaned records and duplicates
+* Index creation for query performance improvement ([GitHub][3])
 
----
+## Key Findings
 
-##  Questions? Feedback?
+* Sales trend analysis helps identify revenue movement over time.
+* Customer segmentation highlights VIP, loyal, standard, and at-risk customers.
+* Product and category analysis shows which items contribute most to revenue.
+* Delivery analysis reveals state-level differences in shipping performance.
+* Funnel analysis helps spot order drop-off between placement, approval, shipping, and delivery.
+* Freight analysis shows where shipping costs may reduce profitability.
+* Retention and CLV analysis help estimate long-term customer value. ([GitHub][3])
 
-This project is open for discussion! If you're a:
-- **Recruiter** – I'd love to walk you through any query or explain the business reasoning
-- **Fellow learner** – Feel free to fork this and adapt it for your own portfolio
-- **Data enthusiast** – Let's chat about SQL, data analysis, or e-commerce metrics!
+## Business Recommendations
 
----
+* Focus retention campaigns on **at-risk** and **high-value** customers.
+* Promote top-performing product categories more aggressively.
+* Review logistics performance in slower-delivery regions.
+* Monitor freight-heavy categories to protect margins.
+* Use repeat purchase and CLV insights to improve customer loyalty strategy.
+* Explore cross-sell opportunities from products frequently bought together. ([GitHub][3])
 
-##  Author
+I can also turn this into a more polished **GitHub-ready markdown version with bold headings and emojis** if you want.
 
-**Deepak**  
-Data Analyst & SQL Developer  
-*Building portfolio projects to showcase real-world data analysis skills*
-
----
+[1]: https://github.com/Analyze-with-Deepak/ecommerce-sql-analysis "GitHub - Analyze-with-Deepak/ecommerce-sql-analysis · GitHub"
+[2]: https://github.com/Analyze-with-Deepak/ecommerce-sql-analysis/blob/main/schema.sql "ecommerce-sql-analysis/schema.sql at main · Analyze-with-Deepak/ecommerce-sql-analysis · GitHub"
+[3]: https://raw.githubusercontent.com/Analyze-with-Deepak/ecommerce-sql-analysis/main/business_analysis.sql "raw.githubusercontent.com"
